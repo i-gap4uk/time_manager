@@ -1,2 +1,2 @@
-# time_manager
+# Time manager.
 Time manager project.
