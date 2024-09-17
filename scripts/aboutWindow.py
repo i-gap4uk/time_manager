@@ -11,4 +11,4 @@ class AboutWindow(QWidget):
         self.image_label.setPixmap(QPixmap(self._resourcesManager.get_about_image()))
 
     def show(self):
-        super().show()git stash
+        super().show()

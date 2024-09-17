@@ -15,11 +15,12 @@ if __name__ == '__main__':
 
     screen = app.primaryScreen()
     size = screen.size()
-    x = (size.width() / 2) - (main_window.width() / 2)
-    y = (size.height() / 2) - (main_window.height() / 2)
+    x = int((size.width() / 2) - (main_window.width() / 2))
+    y = int((size.height() / 2) - (main_window.height() / 2))
 
     main_window.move(x, y)
     main_window.show()
+    main_window.raise_()
 
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
 
